@@ -1,5 +1,5 @@
 # PathSlicer 
-[![Swift 2.2](https://img.shields.io/badge/language-Swift-orange.svg?style=flat)](https://developer.apple.com/swift/) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mtynior/PathSlicer/blob/master/LICENSE.md) [![CocoaPods](https://img.shields.io/cocoapods/v/PathSlicer.svg)](https://cocoapods.org/pods/PathSlicer) [![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Build Status](https://travis-ci.org/mtynior/PathSlicer.svg?branch=master)](https://travis-ci.org/mtynior/PathSlicer) [![Swift 2.2](https://img.shields.io/badge/language-Swift-orange.svg?style=flat)](https://developer.apple.com/swift/) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mtynior/PathSlicer/blob/master/LICENSE.md) [![CocoaPods](https://img.shields.io/cocoapods/v/PathSlicer.svg)](https://cocoapods.org/pods/PathSlicer) [![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 Returns information about Nancy style path strings such as `/rebels/{name}/{action}/`.
 
