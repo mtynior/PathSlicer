@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PathSlicer"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Returns information about Nancy style path strings"
 
   s.homepage     = "https://github.com/mtynior/PathSlicer"
