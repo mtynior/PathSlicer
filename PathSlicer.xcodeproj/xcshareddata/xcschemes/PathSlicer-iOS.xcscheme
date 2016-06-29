@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "900A23521BFA64CA00BA7ABC"
+               BlueprintIdentifier = "907DF1BC1CB97A5F0068324F"
                BuildableName = "PathSlicerTests.xctest"
                BlueprintName = "PathSlicerTests"
                ReferencedContainer = "container:PathSlicer.xcodeproj">

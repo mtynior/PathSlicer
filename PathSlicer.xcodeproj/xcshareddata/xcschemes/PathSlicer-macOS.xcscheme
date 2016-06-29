@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "907DF0F81CB970AE0068324F"
-               BuildableName = "PathSlicer_osX.framework"
-               BlueprintName = "PathSlicer_osX"
+               BuildableName = "PathSlicer_macOS.framework"
+               BlueprintName = "PathSlicer_macOS"
                ReferencedContainer = "container:PathSlicer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "907DF0F81CB970AE0068324F"
-            BuildableName = "PathSlicer_osX.framework"
-            BlueprintName = "PathSlicer_osX"
+            BuildableName = "PathSlicer_macOS.framework"
+            BlueprintName = "PathSlicer_macOS"
             ReferencedContainer = "container:PathSlicer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "907DF0F81CB970AE0068324F"
-            BuildableName = "PathSlicer_osX.framework"
-            BlueprintName = "PathSlicer_osX"
+            BuildableName = "PathSlicer_macOS.framework"
+            BlueprintName = "PathSlicer_macOS"
             ReferencedContainer = "container:PathSlicer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

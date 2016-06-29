@@ -67,7 +67,7 @@
 		907DF1AC1CB979AE0068324F /* PathDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DF1471CB972360068324F /* PathDescription.swift */; };
 		907DF1AD1CB979AE0068324F /* PathInformationProviderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DF1481CB972360068324F /* PathInformationProviderType.swift */; };
 		907DF1AE1CB979AE0068324F /* PathSlicer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DF14A1CB972360068324F /* PathSlicer.swift */; };
-		907DF1C21CB97A5F0068324F /* PathSlicer_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 900A23491BFA64C900BA7ABC /* PathSlicer_iOS.framework */; };
+		907DF1C21CB97A5F0068324F /* PathSlicer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 900A23491BFA64C900BA7ABC /* PathSlicer.framework */; };
 		907DF1E51CB97BA40068324F /* LiteralComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DF1DA1CB97BA40068324F /* LiteralComponentTests.swift */; };
 		907DF1E61CB97BA40068324F /* RegexComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DF1DB1CB97BA40068324F /* RegexComponentTests.swift */; };
 		907DF1E71CB97BA40068324F /* VariableComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DF1DC1CB97BA40068324F /* VariableComponentTests.swift */; };
@@ -89,10 +89,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		900A23491BFA64C900BA7ABC /* PathSlicer_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PathSlicer_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		907DF0DF1CB9705C0068324F /* PathSlicer_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PathSlicer_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		907DF0EC1CB9707C0068324F /* PathSlicer_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PathSlicer_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		907DF0F91CB970AE0068324F /* PathSlicer_osX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PathSlicer_osX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		900A23491BFA64C900BA7ABC /* PathSlicer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PathSlicer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		907DF0DF1CB9705C0068324F /* PathSlicer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PathSlicer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		907DF0EC1CB9707C0068324F /* PathSlicer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PathSlicer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		907DF0F91CB970AE0068324F /* PathSlicer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PathSlicer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		907DF1361CB972360068324F /* ComponentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentType.swift; sourceTree = "<group>"; };
 		907DF1371CB972360068324F /* LiteralComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiteralComponent.swift; sourceTree = "<group>"; };
 		907DF1381CB972360068324F /* RegexComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegexComponent.swift; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 		907DF13F1CB972360068324F /* DefaultPathDescriptionFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultPathDescriptionFactory.swift; sourceTree = "<group>"; };
 		907DF1401CB972360068324F /* PathDescriptionFactoryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathDescriptionFactoryType.swift; sourceTree = "<group>"; };
 		907DF1411CB972360068324F /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
-		907DF1421CB972360068324F /* Info-osX.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-osX.plist"; sourceTree = "<group>"; };
+		907DF1421CB972360068324F /* Info-macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
 		907DF1431CB972360068324F /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		907DF1441CB972360068324F /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
 		907DF1461CB972360068324F /* ComponentInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentInformation.swift; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				907DF1C21CB97A5F0068324F /* PathSlicer_iOS.framework in Frameworks */,
+				907DF1C21CB97A5F0068324F /* PathSlicer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,10 +176,10 @@
 		900A234A1BFA64C900BA7ABC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				900A23491BFA64C900BA7ABC /* PathSlicer_iOS.framework */,
-				907DF0DF1CB9705C0068324F /* PathSlicer_watchOS.framework */,
-				907DF0EC1CB9707C0068324F /* PathSlicer_tvOS.framework */,
-				907DF0F91CB970AE0068324F /* PathSlicer_osX.framework */,
+				900A23491BFA64C900BA7ABC /* PathSlicer.framework */,
+				907DF0DF1CB9705C0068324F /* PathSlicer.framework */,
+				907DF0EC1CB9707C0068324F /* PathSlicer.framework */,
+				907DF0F91CB970AE0068324F /* PathSlicer.framework */,
 				907DF1BD1CB97A5F0068324F /* PathSlicerTests.xctest */,
 			);
 			name = Products;
@@ -195,7 +195,7 @@
 				907DF14A1CB972360068324F /* PathSlicer.swift */,
 				907DF1491CB972360068324F /* PathSlicer.h */,
 				907DF1411CB972360068324F /* Info-iOS.plist */,
-				907DF1421CB972360068324F /* Info-osX.plist */,
+				907DF1421CB972360068324F /* Info-macOS.plist */,
 				907DF1431CB972360068324F /* Info-tvOS.plist */,
 				907DF1441CB972360068324F /* Info-watchOS.plist */,
 			);
@@ -332,7 +332,7 @@
 			);
 			name = PathSlicer_iOS;
 			productName = PathSlicer;
-			productReference = 900A23491BFA64C900BA7ABC /* PathSlicer_iOS.framework */;
+			productReference = 900A23491BFA64C900BA7ABC /* PathSlicer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		907DF0DE1CB9705C0068324F /* PathSlicer_watchOS */ = {
@@ -350,7 +350,7 @@
 			);
 			name = PathSlicer_watchOS;
 			productName = "PathSlicer-watchOS";
-			productReference = 907DF0DF1CB9705C0068324F /* PathSlicer_watchOS.framework */;
+			productReference = 907DF0DF1CB9705C0068324F /* PathSlicer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		907DF0EB1CB9707C0068324F /* PathSlicer_tvOS */ = {
@@ -368,12 +368,12 @@
 			);
 			name = PathSlicer_tvOS;
 			productName = "PathSlicer-tvOS";
-			productReference = 907DF0EC1CB9707C0068324F /* PathSlicer_tvOS.framework */;
+			productReference = 907DF0EC1CB9707C0068324F /* PathSlicer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		907DF0F81CB970AE0068324F /* PathSlicer_osX */ = {
+		907DF0F81CB970AE0068324F /* PathSlicer_macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 907DF0FE1CB970AE0068324F /* Build configuration list for PBXNativeTarget "PathSlicer_osX" */;
+			buildConfigurationList = 907DF0FE1CB970AE0068324F /* Build configuration list for PBXNativeTarget "PathSlicer_macOS" */;
 			buildPhases = (
 				907DF0F41CB970AE0068324F /* Sources */,
 				907DF0F51CB970AE0068324F /* Frameworks */,
@@ -384,9 +384,9 @@
 			);
 			dependencies = (
 			);
-			name = PathSlicer_osX;
+			name = PathSlicer_macOS;
 			productName = "PathSlicer-osX";
-			productReference = 907DF0F91CB970AE0068324F /* PathSlicer_osX.framework */;
+			productReference = 907DF0F91CB970AE0068324F /* PathSlicer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		907DF1BC1CB97A5F0068324F /* PathSlicerTests */ = {
@@ -452,7 +452,7 @@
 				900A23481BFA64C900BA7ABC /* PathSlicer_iOS */,
 				907DF0DE1CB9705C0068324F /* PathSlicer_watchOS */,
 				907DF0EB1CB9707C0068324F /* PathSlicer_tvOS */,
-				907DF0F81CB970AE0068324F /* PathSlicer_osX */,
+				907DF0F81CB970AE0068324F /* PathSlicer_macOS */,
 				907DF1BC1CB97A5F0068324F /* PathSlicerTests */,
 			);
 		};
@@ -700,7 +700,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -710,7 +710,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tynior.PathSlicer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PathSlicer;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -720,7 +720,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -730,7 +730,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tynior.PathSlicer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PathSlicer;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -740,6 +740,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -747,8 +748,8 @@
 				INFOPLIST_FILE = "Source/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.PathSlicer-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tynior.PathSlicer;
+				PRODUCT_NAME = PathSlicer;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -761,6 +762,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -768,8 +770,8 @@
 				INFOPLIST_FILE = "Source/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.PathSlicer-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tynior.PathSlicer;
+				PRODUCT_NAME = PathSlicer;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -781,6 +783,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -788,8 +791,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.PathSlicer-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tynior.PathSlicer;
+				PRODUCT_NAME = PathSlicer;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -801,6 +804,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -808,8 +812,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.PathSlicer-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tynior.PathSlicer;
+				PRODUCT_NAME = PathSlicer;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -821,19 +825,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info-osX.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.PathSlicer-osX";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tynior.PathSlicer;
+				PRODUCT_NAME = PathSlicer;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -843,19 +847,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info-osX.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.PathSlicer-osX";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tynior.PathSlicer;
+				PRODUCT_NAME = PathSlicer;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -927,7 +931,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		907DF0FE1CB970AE0068324F /* Build configuration list for PBXNativeTarget "PathSlicer_osX" */ = {
+		907DF0FE1CB970AE0068324F /* Build configuration list for PBXNativeTarget "PathSlicer_macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				907DF0FF1CB970AE0068324F /* Debug */,
@@ -943,6 +947,7 @@
 				907DF1C71CB97A5F0068324F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
