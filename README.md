@@ -3,7 +3,11 @@
 
 Returns information about Nancy style path strings such as `/rebels/{name}/{action}/`.
 
-<h1 align="center">Project is no longer maintained</h1>
+<br />
+<br />
+<h1 align="center">Project is no longer maintained!</h1>
+<br />
+<br />
 
 ## Features
 
