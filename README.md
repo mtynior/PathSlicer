@@ -3,7 +3,9 @@
 
 Returns information about Nancy style path strings such as `/rebels/{name}/{action}/`.
 
-##Features
+<h1 align="center">Project is no longer maintained</h1>
+
+## Features
 
 - [x] Turns Nancy style path into regular expression
 - [x] Returns arguments for capture components
@@ -12,9 +14,9 @@ Returns information about Nancy style path strings such as `/rebels/{name}/{acti
 - [ ] Support for optional compoments
 - [ ] Support for RegEx named capture groups
 
-##Integration
+## Integration
 
-###Requirements
+### Requirements
 
 - iOS 9.0+ / Mac OS X 10.9+ / tvOS 9.0+ / watchOS 2.0+
 - Xcode 7.3+
@@ -40,13 +42,13 @@ github "mtynior/PathSlicer"
 ```
 Run `carthage update` to build the framework and drag the built `PathSlicer.framework` into your Xcode project.
 
-###Manually
+### Manually
 You can also manually add `PathSlicer` to you project:
 
 1. Download repository,
 2. Drag `Sources` folder into you project's tree.
 
-##Usage
+## Usage
 
 ```swift
 let slicer = PathSlicer()
@@ -119,6 +121,6 @@ pathDescription = {
 }
 ```
 
-##License
+## License
 
 PathSlicer is released under the MIT license. See LICENSE for details.
